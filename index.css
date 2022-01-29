@@ -16,7 +16,7 @@ justify-content: space-between;
 align-items: center;
 padding: 10px;
 height: 100px;
-background-color: steelblue;
+
 color: white;
 }
 
@@ -43,7 +43,7 @@ nav ul li{
     border-radius: 10px;
     width: 200px;
     height: 50px;
-    background-color: blue;
+    background-color:#23A6F0;
     color: white;
     border: none;
     font-weight: lighter;
@@ -61,8 +61,12 @@ nav h1{
     justify-content: space-between;
     width: 100%;
     height: 90vh;
-    background-color: tomato;
+    background-image: url(./images/back.png);
     margin-bottom: 40vh;
+    background-size: cover;
+    opacity: 1;
+    background-color: lightslategray;
+    
 }
 
 .fam{
@@ -97,7 +101,7 @@ display: inline-block
     padding: 5px;
 border-radius: 20px;
 color: white;
-background-color: blue;
+background-color: #23A6F0;
 height: 50px;
 border: none;
 
@@ -110,7 +114,7 @@ border: none;
     color: white;
     background-color: transparent;
     height: 50px;
-    border: 1px solid maroon;
+    border: 1px solid white;
 }
 
 .people{
@@ -132,10 +136,13 @@ border: none;
     padding: 10px;
     margin: 20px;
     border: 2px solid grey;
-    background-color: blue;
+    background-color: white;
     height: 20vh;
     margin-bottom: -100px;
     align-content: center;
+}
+.satisfaction{
+    background-color: #23A6F0;
 }
 
 .center{
@@ -164,7 +171,7 @@ border: none;
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 70vh;
+    height: 80vh;
     background-color: yellow;
     justify-content: center;
     align-items: center;
@@ -187,6 +194,12 @@ border: none;
 
     margin-top: 50%;
 }
+
+.cate img{
+
+    height: 200px;
+    width: 200px;
+}
 .slate1, .slate2, .slate3{
 
     margin-right: 60px;
@@ -202,21 +215,35 @@ border: none;
     display: flex;
     flex-direction: column;
     background-color: grey;
-    height: 50vh;
+    height: 60vh;
     margin: 0 auto;
+    width: 100%;
 }
 .newsletter{
 
-margin-top: 30vh;
+margin-top: 20vh;
 margin-left: 15%;
 display: flex;
 justify-content: space-between;
 margin-right: 15%;
-width: 60%;
+width: 70%;
 background-color: indigo;
-height: 15vh;
+height: 20vh;
 align-items: center;
 }
+ .phota{
+    float: left;
+    margin: 0 auto;
+    width: 70%;
+    
+ } 
+ .phota img{
+     height: 50px;
+     width: 70px;
+     margin-right: 50px;
+     margin-left: 50px;
+ }
+
 .subscribe{
 margin-left: 15%;
 
@@ -226,11 +253,31 @@ margin-left: 15%;
 margin-right: 15%;
 }
 
+.email button{
+   height: 40px; 
+   background-color: #23A6F0;
+   color: white;
+   width: 200px;
+   margin-right: 15px;
+   border-radius: 4px;
+   border: none;
+   padding: 10px;
+
+    
+}
 .email input{
-    padding: 5px;
-    border-radius: 15px 0 0 15px;
-    border: none;
-    height: 2em;
+padding: 10px;
+height: 50px;
+border-radius: 4px;
+border: none;
+
+    
+}
+.flex{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .email input :focus{
@@ -238,12 +285,10 @@ margin-right: 15%;
 }
  .email button{
 
-    padding: 5px;
-    height: 2em;
-    background-color: blue;
-    margin-left: -10px;
-    width: 150px;
-    border-radius: 0 15px 15px 0;
+    padding: 5px
+    
+    
+    
  }
 
  .pricing{
@@ -280,7 +325,7 @@ height: 100%;
 
     height: 150%;
     margin-top: -100px;
-    background-color: navy;
+    background-color: #252B42;
  }
  .proba{
 
@@ -298,7 +343,7 @@ height: 100%;
     width: 250px;
     margin-top: 30px;
     border-radius: 5px;
-    background-color: blue;
+    background-color: #23A6F0;
     color: white;
     height: 2em;
     border: none;
@@ -308,13 +353,40 @@ height: 100%;
 
     display: flex;
     flex-direction: column;
-    background-color:navy;
+    background-color:#252B42;
     height: 80vh ;
     align-items: center;
-    justify-content: center;
-    margin-bottom: 30vh;
+    justify-content: space-between;
+    margin-bottom: 60vh;
 
  }
+.planet img{
+
+    
+    
+}
+
+.erta img{
+height: 50vh;
+width: 300px;
+margin-top: 30px;
+}
+.imaga img{
+
+    height: 300px;
+    width: 600px;
+
+}
+
+.tera{
+    display: flex;
+    position: relative;
+    bottom: -150px;
+
+    
+}
+
+
  .worda{
 display: flex;
 justify-content: space-between;
@@ -328,11 +400,12 @@ justify-content: space-between;
  }
 
  .abi{
-width: 400px;
+width: 450px;
 height: 50vh;
 padding: 10px;
-background-color: white;
+background-color:white;
 margin: auto;
+margin-top: 30px;
 
     
  }
@@ -342,7 +415,20 @@ display: block;
 margin: 15px 0;
 box-sizing: border-box;
 width: 100%;
+padding: 10px;
+height: 40px;
+border-radius: 10px;
 
+ }
+
+ .abi input[type=submit]{
+
+    background-color:#23A6F0;
+    height: 3em;
+    color: white;
+ }
+ .abi h3{
+     text-align: center;
  }
 
  
