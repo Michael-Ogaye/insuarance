@@ -1,0 +1,119 @@
+*{
+margin: 0px;
+padding: 0px;
+ box-sizing: content-box;
+}
+
+body{
+
+    width: 100%;
+    
+}
+
+nav{
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 10px;
+height: 100px;
+background-color: steelblue;
+color: white;
+}
+
+nav ul li{
+
+    display: inline-block;
+    list-style: none;
+    margin: 30px;
+}
+
+.log{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 250px;
+}
+
+.log h2{
+    margin: 20px;
+}
+
+.log button{
+    margin-left: 20 px;
+    padding: 10px;
+    border-radius: 10px;
+    width: 200px;
+    height: 50px;
+    background-color: blue;
+    color: white;
+    border: none;
+    font-weight: lighter;
+}
+
+nav h1{
+    margin-left: 200px;
+}
+
+
+
+.banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 90vh;
+    background-color: tomato;
+}
+
+.fam{
+
+    margin: auto;
+    font-size: 30px;
+    line-height: 2.5em;
+    color: white;
+}
+.fam p{
+    text-align: center;
+    margin: 20px;
+    margin-left: -50px;
+    font-size: 20px;
+    line-height: 2em;
+    
+
+}
+.butona{
+
+    margin: auto;
+    margin-left: 25%;
+}
+
+.butona button{
+display: inline-block
+    
+}
+.quote{
+    margin-left: -40px;
+    width: 150px;
+    padding: 5px;
+border-radius: 20px;
+color: white;
+background-color: blue;
+height: 50px;
+border: none;
+
+}
+.learn{
+    margin-right: -40px;
+    width: 150px;
+    padding: 5px;
+    border-radius: 20px;
+    color: white;
+    background-color: transparent;
+    height: 50px;
+    border: 1px solid maroon;
+}
+
+.people{
+
+    display: flex;
+    justify-content: center;
+}
