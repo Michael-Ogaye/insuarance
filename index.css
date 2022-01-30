@@ -612,3 +612,100 @@ margin-right: 15px;
 margin-top: 30px;
 }
  
+
+
+@media  screen and (max-width: 1300px){
+
+    .butona button{
+
+display: block;
+    }
+
+    .people{
+        display: flex;
+        flex-flow: column ;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .center{
+
+        display: flex;
+        flex-flow: column;
+        width: 100%;
+    }
+.cate{
+    display: flex;
+    flex-flow: column ;
+    width: 100%;
+    justify-content: space-between;
+}
+.newsletter{
+
+    display: flex;
+    flex-flow: column ;
+    justify-content: space-between;
+
+}
+.worth{
+
+    display: flex;
+    flex-flow: column ;
+    width: 100%;
+    margin: auto;
+    justify-content: space-between;
+}
+.tera, .worda, .info, .designer{
+display: flex;
+flex-flow: column ;
+width: 100%;
+justify-content: space-around;
+margin: auto;
+}
+
+.pict{ 
+   width: 100%;  
+   clear: both;
+
+   
+}
+.phota{
+margin-top: 300px;
+margin-left: 200px;
+
+}
+
+.peace, .life, .satisfaction{
+margin: auto;
+    width: 100%;
+}
+ .abi{
+     width: 60%;
+     margin: auto;
+ }
+
+ .free, .standard, .premium{
+width: 100%;
+margin: auto;
+
+
+
+ }
+ .worda{
+     align-items: center;
+     justify-content: center;
+ }
+     
+
+
+.atoma, .imaga, .appointment, .erta{
+    margin: auto;
+    width: 100%;
+}
+
+.company, .legal, .features, .touch, .resources{
+
+    width: 100%;
+    margin-left: 40%;
+}
+}
