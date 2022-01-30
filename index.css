@@ -5,7 +5,9 @@ padding: 0px;
 }
 
 body{
-
+    font-family: 'Lobster', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     width: 100%;
     
 }
@@ -137,13 +139,14 @@ border: none;
     margin: 20px;
     border: 2px solid grey;
     background-color: white;
-    height: 20vh;
     margin-bottom: -100px;
     align-content: center;
     height: 200px;
     border: 4px;
     border: 1px solid grey;
-    box-shadow: 15px 15px 15px;
+    height: 250px;
+    box-shadow: 5px white;
+    
 }
 .satisfaction{
     background-color: #23A6F0;
