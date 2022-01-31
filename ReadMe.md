@@ -1,14 +1,14 @@
 # Portfolio
 
 ##### MICHAEL OGAYE
-### A decripition of landing page og beta insurance company
+### A decripition of landing page of beta insurance company
 
 ## Table of Content
 
 + [Description](#description)
 + [Installation Requirement]( Requisites)
 + [Technology Used](technology-used)
-+ [Live-links] (#Live links)
++ [Live-links] (Live links)
 + [Reference](#reference)
 + [Licence](#licence)
 + [Authors Info](#aut)
@@ -80,7 +80,7 @@ SOFTWARE.
 Slack Profile - Michael Ogaye
 
 Linked - [Michael Ogaye](https://www.linkedin.com/in/ogaye-michael-279342212/)
-Email -hogaeymic@gmail.com
+Email hogaeymic@gmail.com
 
 [Go Back to the top](#portfolio)
 
