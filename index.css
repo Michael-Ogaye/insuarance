@@ -382,18 +382,18 @@ box-shadow: 5px 5px 5px;
     background-color: #252B42;
  }
 
- .free h3, .free ul, .free p{
+ .free h3, .free ol, .free p{
 
     margin-top: 30px;
  }
  
-.premium p, .premium h3, .premium ul{
+.premium p, .premium h3, .premium ol{
      margin-top: 30px;
     
      
      
  }
- .standard h3,.standard p, .standard ul{
+ .standard h3,.standard p, .standard ol{
 font-size: 25px;
     margin-top: 30px;
     line-height: 1.7em;
@@ -412,6 +412,11 @@ font-size: 25px;
  .worth{
 
     margin-top: 150px;
+ }
+
+ .worth button{
+
+    margin-left: 50px;
  }
  
  .pricing button{
