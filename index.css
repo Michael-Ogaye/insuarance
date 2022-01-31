@@ -627,11 +627,17 @@ border: none;
 .designer{
     display: flex;
     background-color: grey;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     height: 10vh;
-    position: relative;
-    bottom: 0px;
+    margin-top: 5vh;
+    width: 100%;
+    
+}
+
+.auth{
+
+    margin-right: 350px;
 }
 
 .ico ul li{
