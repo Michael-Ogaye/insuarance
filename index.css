@@ -406,6 +406,19 @@ font-size: 25px;
     margin-top: 30px;
     line-height: 1.7em;
  }
+
+.praca{
+    display: flex;
+    justify-content:center;
+    flex-direction: row;
+    color: #23A6F0;
+}
+.lapa{
+
+    display: flex;
+    flex-direction: column;
+}
+
  .proba{
 
     text-align: center;
