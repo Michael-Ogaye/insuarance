@@ -28,6 +28,7 @@ nav ul li{
     list-style: none;
     margin: 30px;
 }
+ 
 
 .log{
     display: flex;
@@ -494,9 +495,11 @@ border-radius: 10px;
     background-color:#23A6F0;
     height: 3em;
     color: white;
+    border: none;
  }
  .abi h3{
      text-align: center;
+     font-weight: lighter;
  }
 
  
@@ -557,10 +560,11 @@ border: none;
 
     margin-right: 50px;
 }
-.contacts ul li a :hover{
+.contacts ul li :hover{
     background-color: blanchedalmond;
-    color: chocolate;
+    color: purple;
     text-decoration: underline;
+    
 }
 
 .agency{
@@ -574,6 +578,9 @@ border: none;
     background-color: grey;
     justify-content: space-around;
     align-items: center;
+    height: 10vh;
+    position: relative;
+    bottom: 0px;
 }
 
 .ico ul li{
@@ -655,7 +662,7 @@ display: block;
     margin: auto;
     justify-content: space-between;
 }
-.tera, .worda, .info, .designer{
+.tera, .worda, .info{
 display: flex;
 flex-flow: column ;
 width: 100%;
@@ -707,5 +714,13 @@ margin: auto;
 
     width: 100%;
     margin-left: 40%;
+    
 }
+nav{
+background-color: white;
+height: 40vh;
+
+
+}
+
 }
