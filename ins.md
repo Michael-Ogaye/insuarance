@@ -16,7 +16,7 @@
 ## Description
 <p>This project is, aimed at designing the best landing page of an insurance Company, using only raw Html and Css, it is one such project that capture the best user experience on devices of diffrent pixel width, the project is first designed to suite desktop use then then using media queries to design it at diffrent break away points for diffrent devices</p>
 
-![desktop] (./images/Desktop.png) This is the desktop rendition
+![desktop](./images/Desktop.png) This is the desktop rendition
 ![mobile](./images/Mobile.png)  This is the mobile rendition
 
 ## set-up
