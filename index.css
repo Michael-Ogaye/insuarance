@@ -723,4 +723,10 @@ height: 40vh;
 
 }
 
+
+.designer{
+    position: fixed;
+    bottom: 0px;
+    background-color: white;
+}
 }
