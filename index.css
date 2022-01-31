@@ -351,9 +351,13 @@ border: none;
     display: flex;
  }
  .worth li{
-list-style-position: inside;
-list-style-type: circle;
 
+
+
+ }
+
+ .worth ol li i{
+     color: green;
  }
 
  .free, .standard, .premium{
