@@ -114,6 +114,11 @@ nav h1{
 display: inline-block
     
 }
+
+.butona button:hover{
+background-color: orangered;
+
+}
 .quote{
     margin-left: -40px;
     width: 150px;
