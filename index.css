@@ -1,7 +1,7 @@
 *{
 margin: 0px;
 padding: 0px;
- box-sizing: content-box;
+ box-sizing: border-box;
 }
 
 body{
@@ -690,6 +690,12 @@ background-color: indigo;
 
 @media  screen and (max-width: 1300px){
 
+    .banner {
+        height: auto;
+        margin-bottom: 0px;
+        background-size: contain;
+    }
+
     .butona button{
 
 display: block;
@@ -697,11 +703,11 @@ display: block;
 
     .people{
         flex-direction: column;
-        
         width: 100%;
         justify-content: space-between;
-        margin-top: 10vh;
+        margin-top: 3vh;
         margin-bottom:10vh;
+        
     }
 
     .center{
@@ -710,16 +716,18 @@ display: block;
         flex-direction: column;
         width: 100%;
         margin-bottom: 20vh;
-        margin-top:50vh ;
+        margin-top:3vh ;
         
     }
     .per, .set, .mind{
-        margin-top: 25vh;
+        margin-top: 0vh;
         margin-bottom: 0vh;
+        margin: auto;
     }
 .defn{
-
-    margin-top: 60vh;
+height:auto;
+    margin-top: 10vh;
+    margin-bottom: auto;
 }
 
 .cate{
@@ -729,6 +737,17 @@ display: block;
     justify-content: space-between;
     margin-bottom: 50vh;
     
+}
+.slate1, .slate2, .slate3{
+
+    height: auto;
+    box-shadow: 0px 0px 0px;
+    border-radius: 0px;
+}
+
+.physics p{
+    text-align:center ;
+    padding: 5px;
 }
 .pict{ 
     width: 100%;  
