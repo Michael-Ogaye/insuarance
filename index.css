@@ -690,10 +690,13 @@ background-color: indigo;
 
 @media  screen and (max-width: 1300px){
 
+
     .banner {
         height: auto;
         margin-bottom: 0px;
         background-size: contain;
+        background-repeat: no-repeat;
+        background-color: white;
     }
 
     .butona button{
@@ -709,6 +712,9 @@ display: block;
         margin-bottom:10vh;
         
     }
+    
+ 
+    
 
     .center{
 
@@ -743,6 +749,7 @@ height:auto;
     height: auto;
     box-shadow: 0px 0px 0px;
     border-radius: 0px;
+    width: 100%;
 }
 
 .physics p{
@@ -759,6 +766,13 @@ height:auto;
 
  .pricing{
      height: auto;
+     width: 80%;
+ }
+
+ .worth button{
+
+    margin-left: 10%;
+    height: 2em;
  }
 
 
@@ -784,9 +798,30 @@ justify-content: space-between;
 
 
 .phota{
-margin-top: 300px;
-margin-left: 200px;
+margin:auto;
+margin-left: 20%;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+margin-top: -30vh;
+width: 100%;
+margin-bottom: 5vh;
+height: auto;
+margin-left: 20%;
 
+
+}
+
+.phota img{
+    
+    margin-bottom: 3vh;
+
+    width: 10em;
+}
+.newsletter{
+    width: 100%;
+    margin: 0 auto;
+    height: auto;
 }
 
 .peace, .life, .satisfaction{
@@ -796,13 +831,15 @@ margin: auto;
     margin-bottom: 0vh;
 }
  .abi{
-     width: 60%;
+     width: 70%;
      margin: auto;
+     height: auto;
  }
 
  .free, .standard, .premium{
-width: 100%;
-margin: auto;
+width: 90%;
+margin: 2vh;
+box-shadow: 0px 0px 0px;
 
 
 
@@ -837,11 +874,58 @@ margin: auto;
 
 .designer{
     flex-direction: column;
-    margin-top: 20vh;
-    
+    margin-top: 0vh;
+    height: auto;
+    width: 100%;
+    flex-wrap: nowrap;
+    background-color: white;
     
 }
+.planet, .contacts{
+    height: auto;
 
+}
+.auth p{
+width: 100%;
+    margin-left: 75%;
+}
+
+.us button{
+    display: block;
+    margin: auto;
+    margin-top: 5vh;
+}
+.agency{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+.fox{margin: auto;}
+
+.planet{ background-color: white;}
+.worda{background-color: #252B42;
+height: auto;
+margin: auto;
+width: 100%;
+margin-top: 6vh;
+margin-bottom: auto;
+
+}
+.worda img{
+    background-size: contain;
+}
+.atoma{padding: 2vh;}
+
+.erta img{display: block;
+margin: auto;
+width: 100%; 
+height: auto;
+margin-top: -20vh;
+margin-bottom: 10vh;             }
+.erta{
+
+margin: auto;
+}
 
 
 }
