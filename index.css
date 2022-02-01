@@ -145,6 +145,7 @@ border: none;
 
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     
 }
 
@@ -177,6 +178,7 @@ border: none;
 .center{
 
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     margin-bottom: 30vh;
     text-align: center;
@@ -230,6 +232,7 @@ line-height: 2em;
 
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 .cate p{
 
@@ -269,6 +272,7 @@ line-height: 2em;
 margin-top: 20vh;
 margin-left: 15%;
 display: flex;
+flex-wrap: wrap;
 justify-content: space-between;
 margin-right: 15%;
 width: 70%;
@@ -354,6 +358,7 @@ border: none;
  .worth{
 
     display: flex;
+    margin: 150px;
  }
  .worth li{
 
@@ -430,10 +435,7 @@ font-size: 25px;
     font-weight: lighter;
 }
 
- .worth{
-
-    margin-top: 150px;
- }
+ 
 
  .worth button{
 
@@ -485,6 +487,7 @@ margin-top: 30px;
     display: flex;
     position: relative;
     bottom: -150px;
+    flex-wrap: wrap;
 
     
 }
@@ -494,6 +497,7 @@ margin-top: 30px;
 display: flex;
 justify-content: space-between;
 margin-top: 30px;
+flex-wrap: wrap;
  }
 
  .atoma{
@@ -568,6 +572,7 @@ border-radius: 10px;
 .agency{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 
 }
 .agency button{
@@ -590,6 +595,7 @@ border: none;
 
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .contacts ul{
@@ -626,6 +632,7 @@ border: none;
 
 .designer{
     display: flex;
+    flex-wrap: wrap;
     background-color: grey;
     justify-content: center;
     align-items: center;
@@ -689,53 +696,70 @@ display: block;
     }
 
     .people{
-        display: flex;
-        flex-flow: column ;
+        flex-direction: column;
+        
         width: 100%;
         justify-content: space-between;
+        margin-top: 10vh;
+        margin-bottom:10vh;
     }
 
     .center{
 
-        display: flex;
-        flex-flow: column;
+        
+        flex-direction: column;
         width: 100%;
+        margin-bottom: 20vh;
+        margin-top:50vh ;
+        
     }
+    .per, .set, .mind{
+        margin-top: 25vh;
+        margin-bottom: 0vh;
+    }
+.defn{
+
+    margin-top: 60vh;
+}
+
 .cate{
     display: flex;
     flex-flow: column ;
     width: 100%;
     justify-content: space-between;
+    margin-bottom: 50vh;
+    
 }
+.pict{ 
+    width: 100%;  
+    display: block;
+    
+ 
+    
+ }
+
+
 .newsletter{
 
-    display: flex;
-    flex-flow: column ;
+    flex-direction: column;
     justify-content: space-between;
 
 }
 .worth{
 
-    display: flex;
-    flex-flow: column ;
+    flex-direction: column;
     width: 100%;
-    margin: auto;
+
     justify-content: space-between;
 }
 .tera, .worda, .info{
-display: flex;
-flex-flow: column ;
+flex-direction: column;
 width: 100%;
-justify-content: space-around;
-margin: auto;
+justify-content: space-between;
+
 }
 
-.pict{ 
-   width: 100%;  
-   clear: both;
 
-   
-}
 .phota{
 margin-top: 300px;
 margin-left: 200px;
@@ -745,6 +769,8 @@ margin-left: 200px;
 .peace, .life, .satisfaction{
 margin: auto;
     width: 100%;
+    margin-top: 0;
+    margin-bottom: 0vh;
 }
  .abi{
      width: 60%;
@@ -768,25 +794,31 @@ margin: auto;
 .atoma, .imaga, .appointment, .erta{
     margin: auto;
     width: 100%;
+    margin-bottom: 20vh;
 }
 
 .company, .legal, .features, .touch, .resources{
 
     width: 100%;
     margin-left: 40%;
+    margin-bottom: 10vh;
     
 }
-nav{
-background-color: white;
-height: 40vh;
 
 
+.info{
+    margin-bottom: 10vh;
+    flex-direction: column;
 }
 
 
 .designer{
-    position: fixed;
-    bottom: 0px;
-    background-color: white;
+    flex-direction: column;
+    margin-top: 20vh;
+    
+    
 }
+
+
+
 }
